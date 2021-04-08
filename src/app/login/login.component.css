@@ -1,4 +1,7 @@
-
+.w-100{
+    width: 100%;
+    box-sizing: border-box;
+}
 .box{
     width:100%;
     /* border:1px solid red; */
@@ -8,46 +11,48 @@
 }
 .box1{
     width: 27%;
-    border: 1px solid red;
     height: 300px;
     margin: auto;
     margin-top: 100px;
     background-color: white;
 }
-.box2{
+.box11 {
     width: 70%;
+    margin: auto;
+}
+.box2{
+    width: 100%;
     /* border: 1px solid red; */
     height: 50px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 25px;    display: inline-block;
 }
 .box3{
-    width: 70%;
+    width: 100%;
     /* border: 1px solid red; */
     height: 50px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 25px;    display: inline-block;
 }
 .box4{
-    width: 70%;
+    width: 100%;
     /* border: 1px solid red; */
     height: 50px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 25px;    display: inline-block;
 }
 .box5{
-    width: 70%;
+    width: 100%;
     /* border: 1px solid red; */
     height: 29px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 25px;    display: inline-block;
 }
 .box41{
     background: #f2f2f2;
     font-size: 14px;
     padding-right: 60px;
     padding: 15px;
-    width: 88%;
     background-color: green;
     text-transform: uppercase;
     color: white;
