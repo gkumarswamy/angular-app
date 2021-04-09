@@ -23,6 +23,12 @@
       "username": "bharath12",
       "password": "bharath12",
       "id": 4
+    },
+    {
+      "name": "kumar",
+      "username": "kumar56",
+      "password": "kumar56",
+      "id": 5
     }
   ]
 }
