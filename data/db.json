@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "kumar",
+      "username": "kumar1216",
+      "password": "12345"
+    },
+    {
+      "name": "",
+      "username": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "username": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "bharath",
+      "username": "bharath12",
+      "password": "bharath12",
+      "id": 4
+    }
+  ]
+}

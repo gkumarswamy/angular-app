@@ -1,14 +1,23 @@
 <div class="box">
     <div class="box1">
         <div class="box11">
-            <h2 style="padding-top:30px; margin: 0;">Login</h2>
+            <h2 style="padding-top:30px; margin: 0;">Sign Up</h2>
             <div class="box2">
+                <label>Name</label>
+                <input type="text" [(ngModel)]="formObj.name" placeholder="name" class="w-100" style="padding: 15px;
+                background: #f2f2f2;
+                font-size: 14px;
+                padding-right: 60px;">
+            </div>
+            <div class="box2">
+                <label>Username</label>
                 <input type="text" [(ngModel)]="formObj.username" placeholder="username" class="w-100" style="padding: 15px;
                 background: #f2f2f2;
                 font-size: 14px;
                 padding-right: 60px;">
             </div>
             <div class="box3">
+                <label>password</label>
                 <input type="password" [(ngModel)]="formObj.password" placeholder="password" class="w-100" style="padding: 15px;
                 background: #f2f2f2;
                 font-size: 14px;
