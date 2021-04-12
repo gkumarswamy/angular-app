@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ForgotComponent } from './forgot/forgot.component';
@@ -21,7 +22,7 @@ const routes: Routes = [
     PageNotFoundComponent,
     ForgotComponent
   ],
-  imports: [RouterModule.forRoot(routes)],
+  imports: [FormsModule,RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
