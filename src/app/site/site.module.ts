@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ClientComponent } from './client/client.component';
 import { ContactComponent } from './contact/contact.component';
+import { PageNotFoundComponent } from '../shared/page-not-found/page-not-found.component'
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'clients', component: ClientComponent },
   { path: 'contact-us', component: ContactComponent },
   { path: '', component: ContactComponent },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
@@ -26,7 +28,7 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
 })
