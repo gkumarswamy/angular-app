@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ToastrModule } from 'ngx-toastr';
-
+import { SiteModule } from './site/site.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +15,8 @@ import { ToastrModule } from 'ngx-toastr';
     FormsModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    SiteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
