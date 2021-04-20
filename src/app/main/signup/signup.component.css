@@ -1,0 +1,56 @@
+.box{
+    width: 30%;
+     border: 1px solid red;
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+.box1{
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+.box2{
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+.box3{
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+.box01{
+    text-align: center;
+    color: green;
+}
+.box11{
+    width: 70%;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 13px;
+}
+.box21{
+    width: 70%;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 13px;
+}
+.box31{
+    width: 70%;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 13px;
+}
+.box4{
+    width: 50%;
+    height: 30px;
+    margin-top: 29px;
+    margin-left: 88px;
+}
