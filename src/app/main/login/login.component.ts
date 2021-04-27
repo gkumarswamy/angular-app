@@ -7,15 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  formObj:any ={username:"", password:""};
-
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  onClickButton() {
-    console.log(this.formObj.username, this.formObj.password);
   }
 
 }
