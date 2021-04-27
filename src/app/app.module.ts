@@ -5,7 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ToastrModule } from 'ngx-toastr';
-import { MainModule } from './main/main.module'
+import { MainModule } from './main/main.module';
+import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -16,7 +17,8 @@ import { MainModule } from './main/main.module'
     BrowserAnimationsModule,
     HttpClientModule,
     ToastrModule.forRoot(),
-    MainModule
+    MainModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
